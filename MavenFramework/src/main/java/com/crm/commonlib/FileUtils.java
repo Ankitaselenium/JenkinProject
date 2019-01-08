@@ -1,4 +1,4 @@
-package com.crm.genericlib;
+package com.crm.commonlib;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package com.crm.genericlib;
+package com.crm.commonlib;
 
 import java.io.File;
 import java.util.Date;
@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.asserts.SoftAssert;
 
-import com.crm.objectrepositorylib.Login;
+import com.crm.elementrepository.Login;
 
 public class BaseClass {
 

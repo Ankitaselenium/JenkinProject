@@ -12,19 +12,19 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.crm.genericlib.BaseClass;
-import com.crm.genericlib.FileUtils;
-import com.crm.objectrepositorylib.CreateNewRole;
-import com.crm.objectrepositorylib.EditingRole;
-import com.crm.objectrepositorylib.Home;
-import com.crm.objectrepositorylib.Profiles;
-import com.crm.objectrepositorylib.ProfilesPrivileges;
-import com.crm.objectrepositorylib.Roles;
-import com.crm.objectrepositorylib.Settings;
-import com.crm.objectrepositorylib.ViewingAccessPrivileges;
-import com.crm.objectrepositorylib.ViewingRole;
+import com.crm.commonlib.BaseClass;
+import com.crm.commonlib.FileUtils;
+import com.crm.elementrepository.CreateNewRole;
+import com.crm.elementrepository.EditingRole;
+import com.crm.elementrepository.Home;
+import com.crm.elementrepository.Profiles;
+import com.crm.elementrepository.ProfilesPrivileges;
+import com.crm.elementrepository.Roles;
+import com.crm.elementrepository.Settings;
+import com.crm.elementrepository.ViewingAccessPrivileges;
+import com.crm.elementrepository.ViewingRole;
 
-@Listeners( com.crm.genericlib.ListenerImpClass.class)
+@Listeners( com.crm.commonlib.ListenerImpClass.class)
 public class RolesTest extends BaseClass {
 	// TestNG Class
 

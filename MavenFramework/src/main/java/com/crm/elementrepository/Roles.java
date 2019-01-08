@@ -1,10 +1,10 @@
-package com.crm.objectrepositorylib;
+package com.crm.elementrepository;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-import com.crm.genericlib.BaseClass;
+import com.crm.commonlib.BaseClass;
 
 public class Roles extends BaseClass{
 

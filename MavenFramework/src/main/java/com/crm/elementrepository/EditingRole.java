@@ -1,4 +1,4 @@
-package com.crm.objectrepositorylib;
+package com.crm.elementrepository;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
