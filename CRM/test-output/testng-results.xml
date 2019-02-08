@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14718" started-at="2019-02-08T07:49:12Z" finished-at="2019-02-08T07:49:26Z">
+    <groups>
+    </groups>
+    <test name="firefox" duration-ms="14718" started-at="2019-02-08T07:49:12Z" finished-at="2019-02-08T07:49:26Z">
+      <class name="com.crm.test.CreateConact">
+        <test-method status="PASS" signature="configBeforeTest(java.lang.String)[pri:0, instance:com.crm.test.CreateConact@59f99ea]" name="configBeforeTest" is-config="true" duration-ms="14686" started-at="2019-02-08T07:49:12Z" finished-at="2019-02-08T07:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeTest -->
+        <test-method status="PASS" signature="createTest()[pri:0, instance:com.crm.test.CreateConact@59f99ea]" name="createTest" duration-ms="7" started-at="2019-02-08T07:49:26Z" finished-at="2019-02-08T07:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+      </class> <!-- com.crm.test.CreateConact -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
