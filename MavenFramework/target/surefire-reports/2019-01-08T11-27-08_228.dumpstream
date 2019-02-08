@@ -1,0 +1,4 @@
+# Created at 2019-01-08T11:27:09.094
+Boot Manifest-JAR contains absolute paths in classpath 'F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

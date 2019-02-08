@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2,965.951" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework\target\test-classes;F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework\target\classes;C:\Users\Dell\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Dell\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Dell\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Dell\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Dell\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Dell\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Dell\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\Dell\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\Dell\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\Dell\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\Dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Dell\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Users\Dell\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Users\Dell\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Dell\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Dell\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\Dell\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Users\Dell\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Dell\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Dell\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Users\Dell\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire8914302367159674322\surefirebooter7058184926759991840.jar C:\Users\Dell\AppData\Local\Temp\surefire8914302367159674322 2019-01-08T11-45-25_939-jvmRun1 surefire9031318009392025370tmp surefire_02152042945986428909tmp"/>
+    <property name="surefire.test.class.path" value="F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework\target\test-classes;F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework\target\classes;C:\Users\Dell\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Dell\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Dell\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Dell\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Dell\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Dell\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Dell\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Dell\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Dell\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\Dell\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\Dell\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\Dell\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Users\Dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Dell\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Users\Dell\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Users\Dell\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Dell\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Dell\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\Dell\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Users\Dell\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Dell\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Dell\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Users\Dell\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Users\Dell\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\Dell\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire8914302367159674322\surefirebooter7058184926759991840.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="Dell"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="F:\ROHIT\Q SPIDER\eclipse\Qspider_java\MavenFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\product\10.2.0\db_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\maven\apache-maven-3.6.0\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="createRoles" classname="com.vtiger.settings.RolesTest" time="102.248"/>
+  <testcase name="EditRoleName" classname="com.vtiger.settings.RolesTest" time="89.516"/>
+  <testcase name="EditRoleNameUsingEditButton" classname="com.vtiger.settings.RolesTest" time="93.221"/>
+  <testcase name="EditRoleWithChangingProfileTest" classname="com.vtiger.settings.RolesTest" time="223.894"/>
+  <testcase name="EditRoleWithAddingNewProfile" classname="com.vtiger.settings.RolesTest" time="2,389.954">
+    <failure message="Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 2225.67 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;Dell-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 015a321a-e03b-4126-b311-cf6ce3fc5330" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+Element is not currently visible and so may not be interacted with
+Command duration or timeout: 2225.67 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Dell-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 015a321a-e03b-4126-b311-cf6ce3fc5330
+	at com.vtiger.settings.RolesTest.EditRoleWithAddingNewProfile(RolesTest.java:1506)
+Caused by: org.openqa.selenium.ElementNotVisibleException: 
+Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Dell-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[Logout
+Login
+Going to Create Profile... Marketing Profile_6237
+In CRM Settings
+In Profiles
+After Clicking on New Profile button
+In Create New Profile
+In Create New Profile ...Next Clicked
+In Create New Profile ...Finish Clicked....created profile is Marketing Profile_6237
+Profile created.. Marketing Profile_6237
+In CRM Settings
+after moving mouse cursor!
+After clicking on add role!
+New Role Name entered Sales Man_5712
+Profile Selected >>Marketing Profile_6237
+ Verified success Marketing Profile_6237 shown in "Members of List"
+ Save button Clicked ..
+ 
+ Role Sales Man_5712  created >>pass !!!
+Going to Create Profile... Marketing Profile_6237_9875_10
+In CRM Settings
+In Profiles
+In Create New Profile
+In Create New Profile ...Next Clicked
+In Create New Profile ...Finish Clicked....created profile is Marketing Profile_6237_9875_10
+Profile created.. Marketing Profile_6237_9875_10
+In CRM Settings
+]]></system-out>
+  </testcase>
+  <testcase name="configAS" classname="com.vtiger.settings.RolesTest" time="2,402.674">
+    <failure message="Source &apos;.\test-output\emailable-report.html&apos; does not exist" type="java.io.FileNotFoundException">java.io.FileNotFoundException: Source '.\test-output\emailable-report.html' does not exist
+</failure>
+    <system-out><![CDATA[Logout
+=====Close Browser=======
+******Disconnect to DB***********
+***After Suite
+******Take Report Backup***********
+***After Suite
+]]></system-out>
+  </testcase>
+</testsuite>
